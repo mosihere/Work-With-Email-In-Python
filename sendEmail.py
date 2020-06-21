@@ -1,5 +1,5 @@
+# TODO: You can search Email Specefic App password/ Gmail Specific App password and create one to use in third-party app
 # first of all we have to import smtplib module ( simple mail transfer protocol library )
-
 import smtplib
 conn = smtplib.SMTP('smtp.gmail.com', 587) # call the SMTP function and passing it the domain name of your email provider ( smtp servers )
 
